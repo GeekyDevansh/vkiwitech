@@ -14,13 +14,13 @@ const About = () => {
         >
           Who We Are
         </motion.div>
-        <div className="container px-5 md:pt-12 mx-auto flex gap-8 md:flex-nowrap flex-wrap">
+        <div className="px-5 md:pt-12 mx-auto flex gap-8 md:flex-nowrap flex-wrap">
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            className=" w-full rounded-lg overflow-hidden mt-6 sm:mt-0"
+            className=" md:w-1/2 rounded-lg overflow-hidden mt-6 sm:mt-0"
           >
             <img
               className="object-cover object-center w-full h-full"
@@ -33,7 +33,7 @@ const About = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            classNameName=" flex justify-center items-center text-md text-gray-900"
+            className=" md:w-1/2 flex justify-center items-center text-md text-gray-900"
           >
             vKiwiTech is a professional consulting organization, specialized in
             SAP solution integration and business process optimization with

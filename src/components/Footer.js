@@ -142,7 +142,7 @@ const footer = () => {
             <p className="text-gray-400 text-sm text-center sm:text-left">
               Copyright © vKiwiTech 2024. All Rights Reserved.
             </p>
-            <span className="text-gray-400 text-sm text-center sm:text-left" >
+            <span className="text-gray-400 md:mt-0 mt-2 md:text-sm text-xs text-center sm:text-left" >
             Designed and Developed by <a className="underline" href="https://www.linkedin.com/in/devansh-khullar/">Devansh Khullar</a>
             </span>
             {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

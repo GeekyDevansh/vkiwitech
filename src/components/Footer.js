@@ -24,7 +24,7 @@ const footer = () => {
             <motion.span initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
   viewport={{ once: true }}
-  transition={{duration:1}} className="text-gray-400"> Phone : +91-7042368084 </motion.span>
+  transition={{duration:1}} className="text-gray-400"> Phone : +91-9560300384 </motion.span>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <motion.div initial={{ opacity: 0 }}
@@ -138,11 +138,14 @@ const footer = () => {
           <motion.div initial={{ opacity: 0 }}
   whileInView={{ opacity: 1 }}
   viewport={{ once: true }}
-  transition={{duration:1}} className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+  transition={{duration:1}} className="container mx-auto py-4 px-5 flex justify-between flex-wrap flex-col sm:flex-row">
             <p className="text-gray-400 text-sm text-center sm:text-left">
               Copyright © vKiwiTech 2024. All Rights Reserved.
             </p>
-            <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+            <span className="text-gray-400 text-sm text-center sm:text-left" >
+            Designed and Developed by <a className="underline" href="https://www.linkedin.com/in/devansh-khullar/">Devansh Khullar</a>
+            </span>
+            {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a className="text-gray-400">
                 <svg
                   fill="currentColor"
@@ -198,7 +201,7 @@ const footer = () => {
                   <circle cx="4" cy="4" r="2" stroke="none"></circle>
                 </svg>
               </a>
-            </span>
+            </span> */}
           </motion.div>
         </div>
       </footer>

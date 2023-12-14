@@ -18,30 +18,30 @@ const Contact = () => {
   whileInView={{ opacity: 1 }}
   viewport={{ once: true }}
   transition={{duration:1}} className="lg:w-1/2 md:w-2/3 mx-auto">
-      <div className="flex flex-wrap -m-2">
+      <form className="flex flex-wrap -m-2" action="https://formsubmit.co/khushbooprajapati0909@gmail.com" method="POST" >
         <div className="p-2 w-1/2">
           <div className="relative">
-            <label for="name" className="leading-7 text-sm text-white">Name</label>
-            <input type="text" id="name" name="name" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+            <label for="name" className="leading-7 text-sm text-white">Name <span className='text-red-500' >*</span></label>
+            <input required type="text" id="name" name="name" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
         </div>
         <div className="p-2 w-1/2">
           <div className="relative">
-            <label for="email" className="leading-7 text-sm text-white">Email</label>
-            <input type="email" id="email" name="email" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+            <label for="email" className="leading-7 text-sm text-white">Email <span className='text-red-500' >*</span></label>
+            <input required type="email" id="email" name="email" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
         </div>
         <div className="p-2 w-full">
           <div className="relative">
-            <label for="message" className="leading-7 text-sm text-white">Message</label>
-            <textarea id="message" name="message" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            <label for="message" className="leading-7 text-sm text-white">Message <span className='text-red-500' >*</span></label>
+            <textarea required id="message" name="message" className="w-full rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
           </div>
         </div>
         <div className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-[#6fbf8b] border-0 py-2 px-8 focus:outline-none hover:bg-green-500 rounded text-lg">Submit</button>
+          <button className="flex mx-auto text-white bg-[#6fbf8b] border-0 py-2 px-8 focus:outline-none hover:bg-green-500 rounded text-lg" type="submit" >Submit</button>
         </div>
        
-      </div>
+      </form>
     </motion.div>
   </div>
 </section>

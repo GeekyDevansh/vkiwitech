@@ -17,9 +17,7 @@ const Body = () => {
               vKiwiTech IT Consulting and Services
             </h1>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-200">
-              vKiwiTech has a proven track record and expertise in configuring,
-              implementing, hosting, developing, upgrading and supporting SAP
-              applications.{" "}
+            vKiwiTech excels in SAP solutions and website development. We configure, implement, host, and support SAP applications, while also creating modern and seamless websites for our clients.{" "}
             </p>
           </motion.div>
           <div className="flex flex-wrap -m-4">
@@ -51,9 +49,7 @@ const Body = () => {
                   Innovative Tools
                 </h2>
                 <p className="leading-relaxed text-base">
-                  In our endeavor to supplement efficient SAP deployment with
-                  minimal change requests, we have been using latest industry
-                  specific tools.
+                We streamline SAP deployment with minimal changes using advanced tools. Our expertise also spans web development, employing modern tools for seamless solutions.
                 </p>
               </motion.div>
             </motion.div>

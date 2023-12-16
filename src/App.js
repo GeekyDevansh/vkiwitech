@@ -7,12 +7,18 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Slider from "./components/Slider";
 import Tools from "./components/Tools";
+import { motion } from 'framer-motion';
 
 function App() {
   return (
     <>
       <Header />
+      <motion.div initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{duration:1}} >
       <Slider/>
+      </motion.div>
       <div className="bg-[#2ea673]" >
       <Body />
       </div>

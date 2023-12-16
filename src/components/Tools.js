@@ -44,43 +44,44 @@ const Tools = () => {
       <div className=" overflow-x-hidden hidden md:block md:mb-24 md:pt-12" >
         <Slider
           {...settingsLg}
+          className="focus:outline-none border-0"
         >
-          <div className="mt-2">
+          <div className="mt-2 focus:outline-none">
             <img
               src="/javascript.png"
               alt="img"
               className="grayscale hover:grayscale-0 duration-200 h-24 w-24"
             />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 focus:outline-none">
             <img
               src="/react.png"
               alt="img"
               className="grayscale hover:grayscale-0 duration-200 h-24 w-44"
             />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 focus:outline-none">
             <img
               src="/aws.png"
               alt="img"
               className="grayscale hover:grayscale-0 duration-200 h-24 w-24"
             />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 focus:outline-none">
             <img
               src="/sap.png"
               alt="img"
               className="grayscale hover:grayscale-0 duration-200 h-24 w-24"
             />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 focus:outline-none">
             <img
               src="/hana.png"
               alt="img"
               className="grayscale hover:grayscale-0 duration-200 h-24 w-52"
             />
           </div>
-          <div className="mt-2">
+          <div className="mt-2 focus:outline-none">
             <img
               src="/sql.png"
               alt="img"
@@ -95,46 +96,46 @@ const Tools = () => {
         <Slider {...settingsSm}>
          
           
-          <div>
+          <div className="focus:outline-none" >
             <img
               src="/javascript.png"
               alt="img"
-              className="grayscale pt-2 hover:grayscale-0 duration-500 h-12 w-12 "
+              className="grayscale hover:grayscale-0  pt-2 duration-500 h-18 w-12 "
             />
           </div>
-          <div>
+          <div className="focus:outline-none" >
             <img
               src="/react.png"
               alt="img"
-              className="grayscale pt-2 hover:grayscale-0 duration-500 h-12 w-22 "
+              className="grayscale hover:grayscale-0  pt-2 duration-500 h-14 w-22 "
             />
           </div>
-          <div>
+          <div className="focus:outline-none" >
             <img
               src="/sap.png"
               alt="img"
-              className="grayscale pt-2 hover:grayscale-0 duration-500 h-12 w-12 "
+              className="grayscale hover:grayscale-0  pt-2 duration-500 h-14 w-12 "
             />
           </div>
-          <div>
+          <div className="focus:outline-none" >  
             <img
               src="/hana.png"
               alt="img"
-              className="grayscale pt-2 hover:grayscale-0 duration-500 h-12 w-22 "
+              className="grayscale hover:grayscale-0  pt-2 duration-500 h-14 w-22 "
             />
           </div>
-          <div>
+          <div className="focus:outline-none" >
             <img
               src="/aws.png"
               alt="img"
-              className="grayscale pt-2 hover:grayscale-0 duration-500 h-12 w-12 "
+              className="grayscale hover:grayscale-0  pt-2 duration-500 h-14 w-12 "
             />
           </div>
-          <div>
+          <div className="focus:outline-none" >
             <img
               src="/sql.png"
               alt="img"
-              className="grayscale pt-2 hover:grayscale-0 duration-500 h-12 w-22 "
+              className="grayscale hover:grayscale-0  pt-2 duration-500 h-14 w-22 "
             />
           </div>
         </Slider>

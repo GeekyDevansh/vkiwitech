@@ -16,4 +16,12 @@ body{
   overflow-x: hidden;
 }
 
+.slick-slide {
+  box-shadow: none;
+  border-color:none;
+  color: none;
+  background: none;
+  outline:none;
+}
+
 

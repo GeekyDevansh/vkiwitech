@@ -62,11 +62,6 @@ const footer = () => {
                 </li>
                 <li>
                   <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
-                    SAP CAR
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
                     Website Development
                   </a>
                 </li>

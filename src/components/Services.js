@@ -35,7 +35,7 @@ const Services = () => {
             transition={{ duration: 1 }} class="mb-8 ml-8 md:ml-0 leading-relaxed list-disc ">
               <li>Represent you professionally to candidates.</li>
               <li>Highly process driven & customized search practice.</li>
-              <li>Quick Turnaround Timelines.</li>
+              <li>Quick turnaround timelines.</li>
               <li>Abreast with the key trends in the Global markets.</li>
         </motion.ul>
     </div>

@@ -47,7 +47,7 @@ const footer = () => {
               className="lg:w-1/4 md:w-1/2 w-full px-4"
             >
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
-                SOLUTIONS
+                SAP SOLUTIONS
               </h2>
               <nav className="list-none mb-10">
                 <li>
@@ -62,16 +62,12 @@ const footer = () => {
                 </li>
                 <li>
                   <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
-                    Website Development
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
-                    UI/UX
+                    SAP Extended Warehouse Management
                   </a>
                 </li>
               </nav>
             </motion.div>
+           
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -80,26 +76,27 @@ const footer = () => {
               className="lg:w-1/4 md:w-1/2 w-full px-4"
             >
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">
-                ANALYTICS
+                WEB SOLUTIONS
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
-                    SAP Business Analytics
+                    Website Development
                   </a>
                 </li>
                 <li>
                   <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
-                    SAP LUMIRA
+                    UI/UX
                   </a>
                 </li>
                 <li>
                   <a className="text-gray-400 hover:text-gray-200 cursor-pointer">
-                    Retail Analytics - TRACE
+                    Search Engine Optimization
                   </a>
                 </li>
               </nav>
             </motion.div>
+
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

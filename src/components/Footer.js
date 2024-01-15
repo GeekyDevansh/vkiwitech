@@ -165,7 +165,7 @@ const footer = () => {
               Designed and Developed by{" "}
               <a
                 className="underline"
-                href="https://www.linkedin.com/in/devansh-khullar/"
+                href="https://www.devanshkhullar.live/"
               >
                 Devansh Khullar
               </a>

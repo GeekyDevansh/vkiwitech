@@ -37,7 +37,7 @@ const About = () => {
           >
             vKiwiTech is a professional consulting organization, specialized in
             SAP solution integration, business process optimization and web development with
-            focus on the Retail industry. Founded in 2023, by an accomplished
+            focus on the Retail industry. Founded in 2022, by an accomplished
             team of SAP consultants with extensive experience of combined
             integrated business management system, vKiwiTech knows how to
             leverage SAP and other technologies to improve and streamline processes for its clients.{" "}
